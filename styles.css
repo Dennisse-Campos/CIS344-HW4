@@ -1,5 +1,5 @@
-/* styles.css */
 
+/* General body styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
 }
 
+/* Header styling */
 header {
   background-color: #b06ab3; /* Medium purple */
   color: white;
@@ -16,23 +17,27 @@ header {
   align-items: center;
 }
 
+/* Styling for the image in the header (logo) */
 header img {
   margin-right: 15px;
   height: 50px;
   width: 50px;
 }
 
+/* Styling for the main heading in the header */
 header h1 {
   font-size: 2.5em;
   margin: 0;
 }
 
+/* Navigation menu styling */
 nav {
   background-color: #d386e0; /* Lighter purple */
   padding: 12px 0;
   text-align: center;
 }
 
+/* Styling for the links within the navigation */
 nav a {
   color: white;
   text-decoration: none;
@@ -40,14 +45,17 @@ nav a {
   font-weight: bold;
 }
 
+/* Hover effect for the navigation links */
 nav a:hover {
   background-color: #b06ab3;
 }
 
+/* Styling for the main content area */
 .main-content {
   padding: 20px;
 }
 
+/* Styling for the hero section (main welcome area) */
 .hero {
   background-color: #f0f0f0; /* Light background */
   padding: 30px;
@@ -56,16 +64,19 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/* Styling for the main heading in the hero section */
 .hero h2 {
   font-size: 2em;
   margin-bottom: 10px;
 }
 
+/* Styling for the tagline in the hero section */
 .hero .tagline {
   color: #555;
   margin-bottom: 15px;
 }
 
+/* Styling for the buttons in the hero section */
 .hero .button {
   display: inline-block;
   padding: 10px 20px;
@@ -77,6 +88,7 @@ nav a:hover {
   font-weight: bold;
 }
 
+/* Styling for the "About Us" section */
 .about-us {
   padding: 20px;
   background-color: white;
@@ -84,12 +96,14 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/* Styling for the heading in the "About Us" section */
 .about-us h3 {
   font-size: 1.8em;
   color: #333;
   margin-bottom: 10px;
 }
 
+/* Styling for the "Featured Dishes" section */
 .featured-dishes {
   padding: 20px;
   background-color: #f0f0f0; /* Light background */
@@ -98,12 +112,14 @@ nav a:hover {
   text-align: center;
 }
 
+/* Styling for the heading in the "Featured Dishes" section */
 .featured-dishes h3 {
   font-size: 1.8em;
   color: #333;
   margin-bottom: 15px;
 }
 
+/* Styling for individual dish containers */
 .featured-dishes .dish {
   display: inline-block;
   margin: 15px;
@@ -115,23 +131,27 @@ nav a:hover {
   background-color: white;
 }
 
+/* Styling for the image within each dish */
 .featured-dishes .dish img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
+/* Styling for the heading of each dish */
 .featured-dishes .dish h4 {
   font-size: 1.2em;
   margin-top: 0;
   margin-bottom: 5px;
 }
 
+/* Styling for the price of each dish */
 .featured-dishes .dish .price {
   font-weight: bold;
   color: #b06ab3;
 }
 
+/* Styling for the "Testimonials" section */
 .testimonials {
   padding: 20px;
   background-color: white;
@@ -139,6 +159,7 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/* Styling for the heading in the "Testimonials" section */
 .testimonials h3 {
   font-size: 1.8em;
   color: #333;
@@ -146,6 +167,7 @@ nav a:hover {
   text-align: center;
 }
 
+/* Styling for individual testimonials */
 .testimonials .testimonial {
   margin: 15px auto;
   padding: 15px;
@@ -157,6 +179,7 @@ nav a:hover {
   text-align: center;
 }
 
+/* Styling for the "Call to Action" section */
 .call-to-action {
   padding: 30px;
   background-color: #d386e0; /* Lighter purple */
@@ -166,16 +189,19 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+/* Styling for the heading in the "Call to Action" section */
 .call-to-action h3 {
   font-size: 2em;
   margin-bottom: 10px;
 }
 
+/* Styling for the paragraph in the "Call to Action" section */
 .call-to-action p {
   font-size: 1.1em;
   margin-bottom: 15px;
 }
 
+/* Styling for the footer */
 footer {
   background-color: #333;
   color: #eee;
@@ -184,6 +210,7 @@ footer {
   font-size: 0.9em;
 }
 
+/* Styling for links in the footer */
 footer a {
   color: #ddd;
   text-decoration: underline;
