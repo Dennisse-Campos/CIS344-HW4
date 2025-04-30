@@ -1,5 +1,5 @@
 # CIS344-HW4
-  This repository contains the code for the La Bella Restaurant.
+  This repository contains the code for the La Bella Restaurant. (Not an interactive website)
 
 ## Table of Contents
 * Installation
@@ -32,7 +32,5 @@ Clone this repository in your local machine:
 
 ## Testing the Application   
 This is not an interactive website so the links to "make a reservation" or to "view the menu" don't have a corresponding file.
-
-(Payment table).
 
 
