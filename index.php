@@ -1,6 +1,15 @@
-<?php require('header.php'); ?>
+<?php 
+// Include the header file, which contains the opening HTML tags,
+// site branding (logo/title), and the navigation menu.
+require('header.php'); 
+?>
 
+<!DOCTYPE html>
+<html>
+     <!-- Main content wrapper -->
     <div class="main-content">
+
+    <!-- Hero section with welcome message and primary calls to action -->
         <section class="hero">
             <h2>Welcome to La Bella!</h2>
             <p class="tagline">Experience the authentic taste of Italy in the heart of the city.</p>
@@ -8,12 +17,14 @@
             <a href="reservations.php" class="button primary">Make a Reservation</a>
         </section>
 
+        <!-- About Us section providing background on the restaurant -->
         <section class="about-us">
             <h3>Our Story</h3>
-            <p>La Bella Restaurant was founded in [Year] by [Founder's Name/Family Name] with a passion for bringing traditional Italian recipes to [Your City/Neighborhood]. We pride ourselves on using fresh, locally sourced ingredients whenever possible to create dishes that are both authentic and bursting with flavor. Our warm and inviting atmosphere makes us the perfect place for a romantic dinner, a family gathering, or a casual meal with friends.</p>
+            <p>La Bella Restaurant was founded in 2025 by Dennisse Campos with a passion for bringing traditional Italian recipes to New York City. We pride ourselves on using fresh, locally sourced ingredients whenever possible to create dishes that are both authentic and bursting with flavor. Our warm and inviting atmosphere makes us the perfect place for a romantic dinner, a family gathering, or a casual meal with friends.</p>
             <p>Come and experience the true taste of Italy at La Bella!</p>
         </section>
 
+         <!-- Featured Dishes section highlighting popular menu items -->
         <section class="featured-dishes">
             <h3>Featured Dishes</h3>
             <div class="dish-grid">
@@ -38,6 +49,7 @@
             </div>
         </section>
 
+         <!-- Customer Testimonials section -->
         <section class="testimonials">
             <h3>What Our Customers Say</h3>
             <div class="testimonial-grid">
@@ -53,11 +65,16 @@
             </div>
         </section>
 
+         <!-- Call to Action section encouraging reservations -->
         <section class="call-to-action">
             <h3>Ready to Dine with Us?</h3>
             <p>Book your table today and savor the flavors of La Bella!</p>
             <a href="reservations.php" class="button primary large">Make a Reservation</a>
         </section>
     </div>
+</html>
 
-<?php require('footer.php'); ?>
+<?php 
+// Include the footer file, which contains the closing HTML tags and any footer content.
+require('footer.php'); 
+?>
